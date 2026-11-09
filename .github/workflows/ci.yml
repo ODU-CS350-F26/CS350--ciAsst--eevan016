@@ -16,6 +16,6 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
       - name: Build and test
-        working-directory: ./CS350--ciAsst--eevan016
+        working-directory: ./src
         timeout-minutes: 20
         run: ../gradlew test
