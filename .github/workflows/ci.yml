@@ -18,4 +18,4 @@ jobs:
       - name: Build and test
         working-directory: ../CS350--ciAsst--eevan016
         timeout-minutes: 20
-        run: ../gradlew test
+        run: ./gradlew test
