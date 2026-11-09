@@ -19,3 +19,7 @@ jobs:
         working-directory: ../CS350--ciAsst--eevan016
         timeout-minutes: 20
         run: ./gradlew test
+      - name: Generate and publish report
+        working-directory: ../CS350--ciAsst--eevan016
+        timeout-minutes: 20
+        run: ./gradlew deployReports

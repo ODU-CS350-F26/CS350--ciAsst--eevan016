@@ -10,6 +10,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
 public class TestWordCounter {
+    @Test
+    public final void easyPass() {
+        assertEquals(1, 1);
+    }
 
     /**
      * Test method basic words
